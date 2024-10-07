@@ -47,6 +47,7 @@ font-size: 15px;
 
 .lista_nav a{
     color: rgba(104, 102, 102, 0.821);
+    font-size: 20px;
 }
 .lista_nav a:hover{
     color: orangered;
