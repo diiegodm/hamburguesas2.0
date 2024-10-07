@@ -1,0 +1,74 @@
+@media(max-width: 768px) {
+
+    .div_iconos a {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        width: 100%;
+    }
+
+    .barras {
+        display: block;
+    }
+
+
+
+    .nav_header {
+        display: block;
+
+    }
+
+    .lista_nav {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .lista_nav li {
+        padding: 5px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.353);
+        position: relative;
+    }
+
+    /*fin header*/
+
+    /*inicio cuerpo*/
+    .section_principal {
+        background-image: url(../../images/fondo.jpg);
+        height: 650px;
+        width: 100%;
+        background-position: center;
+    }
+
+    /*fin del cuerpo*/
+
+    /*inicio de informativo*/
+
+    .servicios {
+        display: block;
+    }
+
+    .partes {
+        border-left: none;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+
+    }
+
+    /*fin de informativo*/
+
+    /*inicio de about us*/
+
+    .about_us {
+        
+        display: block;
+     }
+        
+
+
+
+
+}

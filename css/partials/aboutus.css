@@ -1,0 +1,59 @@
+
+.about{
+    margin: 35px 0 30px 0;
+}
+.about_us{
+    display: flex;
+    width: 70%;
+    margin: 0  auto 15px auto;
+    column-gap: 5px;
+}
+
+ .img_border{
+    border: 1px solid orangered;
+    box-sizing: border-box;
+    rotate: 10deg;
+    transition: 2s ease-in-out;
+
+ }
+ .img_border:hover{
+
+    rotate: -0deg;
+
+    .img{
+        rotate: 0deg;
+    
+    }
+    
+ }
+
+.img{
+    width: 94%;
+    padding: 10px;
+    rotate: -10deg;
+    transition: 1ms ease-in-out;
+   
+}
+.history{
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+
+.our_restaurant{
+    margin-bottom: 10px;
+}
+
+.our_restaurant a{
+    margin-bottom: 10px;
+    color: orangered;
+    font-size: 17px;
+}
+.history_p{
+    width: 80%;
+}
+.enlace_history{
+    box-sizing: border-box;
+    width: 30%;
+    margin-top: 25px;
+}

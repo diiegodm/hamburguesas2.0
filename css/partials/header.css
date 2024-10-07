@@ -1,0 +1,53 @@
+
+.div_header{
+   
+    background-color: rgba(64, 62, 62, 0.785);
+}
+.header{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;  
+    margin:  auto;
+    padding: 25px 0 25px 0;
+   
+}
+
+
+.div_iconos{
+    color: orangered;
+}
+
+.div_iconos a{
+color: whitesmoke;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+}
+
+.logo{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center; 
+}
+.barras{
+    display: none;
+}
+.lista_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;
+    
+}
+
+.lista_nav .menu {
+    color: orangered;
+}
+
+.lista_nav a{
+    color: rgba(104, 102, 102, 0.821);
+}
+.lista_nav a:hover{
+    color: orangered;
+}

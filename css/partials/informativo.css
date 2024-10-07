@@ -1,0 +1,57 @@
+
+
+.our {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    margin: 20px 0 20px 0;
+   
+}
+
+.our span {
+    color: orangered;
+}
+
+
+.servicios {
+
+    display: flex;
+    column-gap: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.partes {
+    border-left: 1px solid black;
+    width: 80%;
+    padding-top: 15px;
+}
+
+.servicio_icono {
+    color: orangered;
+    display: inline;
+    padding: 0 0 0 13px;
+   
+
+}
+.servicio_icono i{
+    font-size: 25px;
+    border: 1px solid orangered;
+    padding: 3px 6px;
+    margin-left: 5px;
+}
+
+.servicio_cuerpo {
+    margin: 0 5px;
+    margin: 15px 0 15px 5px;
+    font-size: 20px;
+    padding: 0 0 0 13px;
+}
+
+.enlace_partes a {
+
+    color: orangered;
+    font-size: 15px;
+    padding: 0 0 0 13px;
+}
